@@ -2,24 +2,24 @@
 class Asindie < Formula
   desc "AsIndie game distribution CLI"
   homepage "https://asindie.com"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.asindie.com/cli/0.5.0/asindie-macos-arm64"
-      sha256 "d33c7739768f5390cc66fac4372c567bab6bd9fd7a5b8a17a23dd1671469edf3"
+      url "https://releases.asindie.com/cli/0.6.0/asindie-macos-arm64"
+      sha256 "c158c1f649efdef971b40c01babed97bb30734beb81a9959cbe042d736b508c7"
     end
     on_intel do
-      url "https://releases.asindie.com/cli/0.5.0/asindie-macos-x64"
-      sha256 "4e347b34ca14ef40d2503dc380b24222679e7dd9d17479bdc72d19b3b5465224"
+      url "https://releases.asindie.com/cli/0.6.0/asindie-macos-x64"
+      sha256 "504dc649351cc3887f7cd062766053a6ab2940eb53bbda2e382ddaf557348f29"
     end
   end
 
   on_linux do
     # Sadece x86_64. ARM Linux v0.5.0'da geri eklenecek.
-    url "https://releases.asindie.com/cli/0.5.0/asindie-linux-x64"
-    sha256 "76d459b759edebcb84159162093f92446153ffa7d85737ddc398a2cad5cb88e7"
+    url "https://releases.asindie.com/cli/0.6.0/asindie-linux-x64"
+    sha256 "1746cb433433a6e2e5ce3cf468b8f7176f6776805d5ebfba422b751a700a2bc8"
   end
 
   def install
